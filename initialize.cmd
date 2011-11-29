@@ -8,4 +8,5 @@
 @call gitaddabstractionbase.cmd
 @call unzipdefaultcontent.cmd
 @call gitupdateproject.cmd
+@copy Abstractions\abscommon\CommonInclude\Template\VS2010SolutionTemplate.sln RENAME_MANUALLY_TO_YOUR_SOLUTION_NAME.sln
 @del initialize.cmd
